@@ -13,8 +13,8 @@ var countWords = function (input) {
     return input.trim().split(' ').length;
 };
 var string1 = 'let  me   test    this     string      ';
-console.log('"' + string1 + '"');
-console.log(countWords(string1));
+console.log('"' + test1 + '"');
+console.log(countWords(test1));
 var string2 = "let\n  me test       this\n  string    ";
-console.log('"' + string2 + '"');
-console.log(countWords(string2));
+console.log('"' + test2 + '"');
+console.log(countWords(test2));
